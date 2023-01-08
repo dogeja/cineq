@@ -128,9 +128,13 @@ html {
     box-shadow: black 4px;
     z-index: 100;
     display: flex;
-    overflow-x: hidden;
     height: 550px;
     width: 100%;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .movie_bg_list::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
   }
   .movie_bg_list li {
     position: relative;
@@ -231,7 +235,12 @@ html {
     margin: 2rem auto;
     text-align: center;
     justify-content: space-between;
-    overflow: hidden;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .movie_list::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
   }
   .movie_wrap > img:first-child {
     margin-left: 15rem;
