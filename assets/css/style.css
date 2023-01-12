@@ -525,7 +525,7 @@ html {
     height: 100%;
   }
   .movie_bg_list > li:nth-of-type(3) > img {
-    content: url(../img/mMvBg3.jpg);
+    content: url(../img/MmvBg3.jpg);
     transform: translateY(-400px);
 
     width: 100vw;
@@ -745,7 +745,7 @@ html {
     height: 100%;
   }
   .movie_bg_list > li:nth-of-type(3) > img {
-    content: url(../img/mMvBg3.jpg);
+    content: url(../img/MmvBg3.jpg);
     transform: translateY(0px);
     width: 100vw;
     height: 100%;
